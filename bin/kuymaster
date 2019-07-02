@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/kuy'
+Kuy.pull_and_merge_from(:master)
