@@ -2,7 +2,7 @@ require 'date'
 
 Gem::Specification.new do |s|
   s.name        = 'kuy'
-  s.version     = '0.2.0'
+  s.version     = '0.2.1'
   s.date        = Date.today.to_s
   s.summary     = 'Kuy is a Ruby gem to simplify git feature branch workflow if you want to pull and merge your develop or master branch'
   s.description = 'Kuy is a Ruby gem to simplify git feature branch workflow if you want to pull and merge your develop or master branch'

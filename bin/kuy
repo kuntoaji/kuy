@@ -2,4 +2,4 @@
 
 require 'kuy'
 branch = ARGV.empty? ? :develop : ARGV.first
-Kuy.pull_and_merge_from(:branch)
+Kuy.pull_and_merge_from(branch)
