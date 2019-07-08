@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
 
-require_relative '../lib/kuy'
-Kuy.pull_and_merge_from(:develop)
+require 'kuy'
+branch = ARGV.empty? ? :develop : ARGV.first
+Kuy.pull_and_merge_from(:branch)
