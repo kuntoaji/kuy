@@ -20,13 +20,19 @@ brew gem install kuy
 ## How to Use
 Run `kuy` or `kuymaster` command in your git feature branch.
 
-Suppose you have a branch named `my-feature-branch` and you want to pull `develop` branch and merge into `my-feature-branch`.
+Suppose you have a branch named `my-feature-branch` and you want to pull `origin/develop` branch and merge into `my-feature-branch`.
 ```sh
 git checkout my-feature-branch
 kuy
 ```
 
-Or if you want to pull `master` branch and merge into `my-feature-branch`.
+Or if you want to pull `origin/example` branch and merge into `my-feature-branch`.
+```sh
+git checkout my-feature-branch
+kuy example
+```
+
+Or if you want to pull `origin/master` branch and merge into `my-feature-branch`.
 ```sh
 git checkout my-feature-branch
 kuymaster
