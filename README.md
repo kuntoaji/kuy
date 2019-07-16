@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/kuy.svg)](https://badge.fury.io/rb/kuy)
+
 # Kuy
 Kuy is a Ruby gem to simplify git feature branch workflow if you want to pull and merge your develop or master branch.
 Kuy assumes git is already installed.
